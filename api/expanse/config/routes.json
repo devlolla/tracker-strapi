@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/expanses",
+      "handler": "expanse.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/expanses/count",
+      "handler": "expanse.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/expanses/:id",
+      "handler": "expanse.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/expanses",
+      "handler": "expanse.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/expanses/:id",
+      "handler": "expanse.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/expanses/:id",
+      "handler": "expanse.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
